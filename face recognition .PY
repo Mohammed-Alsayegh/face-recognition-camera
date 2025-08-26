@@ -4,10 +4,10 @@ from deepface import DeepFace
 import os
 
 # YOLO model for face detection
-yolo_model = YOLO("C:/Users/super/Desktop/كينزا/best.pt")
+yolo_model = YOLO("YOLO model for face detection.pt")
 
 # Path to face database
-db_path = "C:/Users/super/Desktop/mohammed"
+db_path = "database"
 
 # Adjustable parameters
 margin = 20          # pixels to expand bounding box
@@ -81,3 +81,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
